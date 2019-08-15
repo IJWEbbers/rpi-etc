@@ -10,7 +10,7 @@
 # possible, but leave them commented.  Uncommented options override the
 # default value.
 
-#Port 32123
+Port 32123
 #AddressFamily any
 #ListenAddress 0.0.0.0
 #ListenAddress ::
@@ -27,9 +27,9 @@
 #LogLevel INFO
 
 # Authentication:
-
+AllowUsers opsstudent
 #LoginGraceTime 2m
-#PermitRootLogin without-password
+PermitRootLogin no
 #StrictModes yes
 #MaxAuthTries 6
 #MaxSessions 10
